@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CameraOV</string>
+    <string name="photo">Photo</string>
+    <string name="camera">Camera</string>
 </resources>
