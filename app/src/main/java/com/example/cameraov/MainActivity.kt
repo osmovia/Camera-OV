@@ -2,6 +2,8 @@ package com.example.cameraov
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Environment.getExternalStorageDirectory
+import android.os.Environment.getExternalStoragePublicDirectory
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.cameraov.databinding.ActivityMainBinding
