@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CameraOV</string>
+    <string name="photo">Photo</string>
+    <string name="camera">Camera</string>
+    <string name="permission_settings">App requires access to storage to access images stored in device. Please click "GO TO SETTINGS" and give permissions to storage.</string>
+    <string name="permission_reason">App requires access to storage to access images stored in device.</string>
+    <string name="permission_photo">Permission is required to save the photo.</string>
 </resources>
