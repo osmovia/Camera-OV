@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -18,7 +19,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    //Binding
+//    Binding
     buildFeatures {
         viewBinding = true
     }
@@ -51,4 +52,14 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.0-rc01'
     //Fragment
     implementation 'androidx.fragment:fragment-ktx:1.4.0'
+    //UCrop
+    implementation 'com.github.yalantis:ucrop:2.2.6'
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    //Notification
+    implementation 'androidx.core:core-ktx:1.7.0'
+
+
 }

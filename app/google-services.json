@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844371513142",
+    "project_id": "cameraov-7daa8",
+    "storage_bucket": "cameraov-7daa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844371513142:android:e9a8195254db9b61bf6d97",
+        "android_client_info": {
+          "package_name": "com.example.cameraov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844371513142-n1uajn3todap2r528m25dl1jn91k4fhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFBMHb2wIxwcu2-f4eufJYZ12xBvIeius"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844371513142-n1uajn3todap2r528m25dl1jn91k4fhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
