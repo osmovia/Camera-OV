@@ -36,11 +36,12 @@ class MainActivity : AppCompatActivity() {
     
         val navGraph = navController.navInflater.inflate(R.navigation.tabs_navigation)
         
-        if (intent.extras?.getBoolean(KEY_START_DESTINATION) != false) {
-            navGraph.setStartDestination(R.id.camera_navigation)
-        } else {
-            navGraph.setStartDestination(R.id.photo_navigation)
-        }
+//        if (intent.extras?.getBoolean(KEY_START_DESTINATION) != false) {
+//            navGraph.setStartDestination(R.id.camera_navigation)
+//        } else {
+//            navGraph.setStartDestination(R.id.photo_navigation)
+//        }
+        navGraph.setStartDestination(R.id.brush_navigation)
         navController.graph = navGraph
         
         findViewById<BottomNavigationView>(R.id.bottomBarId)

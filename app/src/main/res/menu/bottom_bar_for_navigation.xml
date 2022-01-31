@@ -13,4 +13,10 @@
         android:contentDescription="@string/app_name"
         android:icon="@drawable/ic_photo_library"/>
 
+    <item
+        android:id="@+id/brush_navigation"
+        android:title="@string/brush"
+        android:contentDescription="@string/brush"
+        android:icon="@drawable/ic_brush_24"/>
+
 </menu>
